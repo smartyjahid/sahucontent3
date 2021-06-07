@@ -1,0 +1,564 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans|Mountains+of+Christmas&display=swap");
+
+* {
+  opacity: 1;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+ background-color: #2b0808;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.wrapper .multi_color_border{
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(to right, #37a53743 0% , #37a000 25%, #494949 25%, #494949 50%, #37a000 50%, #37a000 75%, #494949 75%, #494949 100%);
+}
+
+.wrapper .top_nav{
+  
+  width: 100%;
+  height: 70px;
+ 
+  padding: 10px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper .top_nav .left{
+  display: flex;
+  align-items: center;
+
+}
+
+.wrapper .top_nav .left .logo p{
+  font-size: 24px;
+  font-weight: bold;
+  color: #494949;
+  font-family: "Mountains of Christmas", cursive;
+  margin-right: 25px;
+}
+
+.wrapper .top_nav .left .logo p span{
+  color: #37a000;
+  font-family: "Mountains of Christmas", cursive;
+}
+
+.wrapper .top_nav  .right ul  .search_bar input[type="text"]{
+  width: 20px;
+  border: 1px solid rgb(31, 2, 2);
+  background-color: transparent;
+ /* padding: 10px ; */
+ 
+  outline: none;
+  height: 30px; 
+  
+  transition: all 0.5s linear;
+  align-items: center;
+}
+
+.wrapper .top_nav  .right ul .search_bar input[type="text"]:focus{
+  width: 150px;
+  
+}
+
+.wrapper .top_nav .right ul{
+  background:transparent;
+  display: flex;
+}
+
+.wrapper .top_nav .right ul li{
+  margin: 0 12px;
+}
+
+.wrapper .top_nav .right ul li:last-child{
+  background:  #6e706e;
+  width: 100px;
+  margin-right: 0;
+  border-radius: 2px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.wrapper .top_nav .right ul li:hover:last-child{
+  background: #250303;
+}
+
+.wrapper .top_nav .right ul li a{
+  display: block;
+  padding: 8px 10px;
+  color: #666666;
+}
+
+.wrapper .top_nav .right ul li:last-child a{
+   color: #fff;
+}
+
+.wrapper .bottom_nav{
+  width: 100%;
+  background: #200101;
+  height: 25px;
+  padding: 0 50px;
+}
+
+.wrapper .bottom_nav ul{
+  width: 100%;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper .bottom_nav ul li a{
+  color: #494949;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+
+
+/* form css */
+.wrapper .contact{
+  position: relative;
+  min-height: 120vh;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 50px;
+  display: flex;
+  /* justify-content:end; */
+ /* align-items: end; */
+  flex-direction: column;
+ 
+  background-image: url(images/bg-1.jpg);
+  background-size: cover;
+}
+.wrapper .contact .master{
+  background-color:rgb(20, 1, 1);
+  opacity: 0.5;
+  margin-left: 34%;
+  justify-items:end;
+  width:850px;
+  height:600px;
+}
+
+.wrapper .contact .master .contents{
+  background-color: transparent;
+  padding-top: 10px;
+
+  align-items: flex-start;
+
+}
+
+.wrapper .contact .master .contents h1{
+  opacity: 1.5;
+
+  margin-bottom: 50px;
+  margin-top: 5px;
+  margin-left: 1px;
+ 
+  font-family: "Josefin Sans", sans-serif;
+  background:transparent;
+  max-width: 500px;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+.wrapper .contact .master .content1{
+  background-color: transparent;
+  width: 700px;
+ 
+  /* margin-right: 90px; */
+
+ 
+  margin-bottom: 40px;
+  display: flex;
+  
+}
+
+.wrapper .contact .master .content1 .contentrap{
+  display: flex;
+  width: 250px;
+  height: auto;
+  margin-left: 20px;
+  color:white;
+  background-color: transparent;
+  justify-content: space-between;
+  
+  
+}
+.wrapper .contact .master .content1 .contentrap .iconmaker{
+
+  width: 70px;
+  height: 70px;
+  padding-bottom: 20px;
+  background-color: transparent;
+  align-items: center;
+  align-content: center;
+  /* margin : 5px; */
+  margin-bottom: 5px;
+ 
+  border: 4px solid white;
+  border-radius: 60px;
+
+ 
+}
+.wrapper .contact .master .content1 .contentrap .iconmaker i{
+  background-color: transparent;
+  font-size: 25px;
+  opacity: 2;
+  padding-left:20px;
+  padding-top: 12px;
+}
+
+.wrapper .contact .master .content1 .contentrap .detailinput{
+  background-color:transparent;
+  margin-right: 2px;
+  width: 130px;
+  height:100px;
+
+  justify-content: space-around;
+}
+.wrapper .contact .master .content1 .contentrap .detailinput h4{
+  padding-left: 10px;
+  background-color: transparent;
+
+}
+.wrapper .contact .master .content1 .contentrap .detailinput p{
+  padding-left: 10px;
+  background-color: transparent;
+
+}
+.wrapper .contact .master .inputcontainer{
+  opacity: 5.0;
+  background-color: transparent;
+  width:800px;
+  height:400px;
+}
+.wrapper .contact .master .inputcontainer form{
+  background-color: transparent;
+    width : 100%;
+    height:100%;
+   padding: 5px;
+   align-items: center;
+   display: input;
+   justify-content: center;
+}
+
+.wrapper .contact .master .inputcontainer form .inputbox{
+  opacity: 1;
+  position: relative;
+  width: 100%;
+  color: white ;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.wrapper .contact .master .inputcontainer form .inputbox input{
+  background-color: transparent;
+  color: #fff;
+  width: 100%;
+ padding :15px 0;
+  font-size: 16px;
+  margin:10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+}
+.wrapper .contact .master .inputcontainer form .inputbox span{
+  opacity: 5;
+  font-size: 20px;
+  background-color: transparent;
+  position: absolute;
+  left: 0;
+  pointer-events: none;
+  
+  transition:0.5s;
+  color:white;
+}
+.wrapper .contact .master .inputcontainer form .inputbox input[type="submit"]{
+  background-color: #669117;
+  border:white;
+  cursor: pointer;
+  margin-right: 30px;
+ /* padding: 10px; */
+  size:10%;
+}
+.wrapper .contact .master .inputcontainer form .inputbox input:focus~ span,
+.wrapper .contact .master .inputcontainer form .inputbox input:valid~ span{
+  color: #f0f7f5;
+  font-size: 12px;
+  transform:translateY(-15px);
+}
+.wrapper .contact .master .inputcontainer form .twoinput{
+  
+  display: flex;
+  margin-left: 10px;
+  justify-content: space-around;
+}
+
+ 
+/* end form css */
+.wrapper .container{
+  margin-top: 500px;
+  height: 500px;
+  color:#f1dddd;
+  width: 100%;
+}
+.wrapper .container .viewer img{
+ padding-left: 5%;
+ padding-right: 5%;
+ padding-bottom: 5%;
+ border-radius: 5px color white;
+ 
+
+  height: 450px;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+.wrapper .container .serchbox{
+  position:relative;
+  color: rgb(204, 204, 84);
+  background:transparent;
+  width: 400px;
+  height:50px;
+  bottom: 300px;
+  left: 500px;
+  /* margin-bottom: 25px;
+  padding-bottom: 20%;
+  position: center;*/
+  text-align: center; 
+
+ 
+}
+.wrapper .container .serchbox input[type="text"]{
+  font-family: "Mountains of Christmas", cursive;
+  font-weight: bold;
+  font-size: 20px;
+  border: 5px solid rgba(8, 8, 8, 0.4);
+  background-color: transparent;
+  width: 300px;
+  height: 45px;
+}
+.wrapper .container .serchbox button{
+  padding-right: 10px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+
+  font-size: 15px;
+  border: 2px solid rgba(22, 1, 1, 0.4);
+  background-color: rgb(190, 219, 192);
+  width: 80px;
+  height: 35px;
+}
+.wrapper .container .serchbox button:focus{
+  border: 2px solid black;
+  font-size: 20px;
+  font-family: "Mountains of Christmas", cursive;
+  background-color: transparent;
+  width: 100px;
+  height: 30px;
+}
+.wrapper .container .serchbox input[type="text"]:focus{
+  border: 2px solid #6666;
+  font-size: 15px;
+  background-color: transparent;
+  width: 350px;
+  height: 30px;
+}
+
+.wrapper .container2{
+  align-items: center;
+  text-align: center;
+}
+
+.wrapper .container3 ul{
+   display: flex;
+  position: relative;
+  padding-left: 610px;
+
+}
+
+/* .wrapper .map{
+   width: 100%;
+  padding-left: 10px;
+   margin-right: 20px;
+  } */
+.wrapper .container3 ul li a{
+ 
+  padding: 8px 10px;
+}
+
+ .wrapper footer .footer-bottom{
+   padding-top: 300px;
+  height: 0%;
+  bottom: 0%;
+   text-align: center;
+  font-family: monospace;
+  color: white;
+  margin-bottom: 0%;
+  
+}
+@media (max-width: 991px){
+  .wrapper .contact{
+    min-height: 500px;
+    width: 100%;
+
+  }
+  .wrapper .contact .master{
+    background-color:rgb(20, 1, 1);
+    opacity: 0.5;
+    margin-left: 30%;
+    justify-items:end;
+    width:600px;
+    height:600px;
+  }
+
+    
+  .wrapper .contact .master .contents h1{
+    opacity: 1.5;
+  
+    margin-bottom: 30px;
+    margin-top: 3px;
+    margin-left: 1px;
+   
+    font-family: "Josefin Sans", sans-serif;
+    background:transparent;
+    max-width: 200px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+  .wrapper .contact .master .content1{
+    display: inline;
+    background-color: transparent;
+    width: 300px;
+   
+    /* margin-right: 90px; */
+  
+   
+    margin-bottom: 40px;
+   
+    
+  }
+  
+  .wrapper .contact .master .content1 .contentrap{
+    
+    width: 100%;
+    height: auto;
+    margin-left: 20px;
+    color:white;
+    background-color: transparent;
+    /* justify-content: space-between; */
+    
+    
+  }
+  .wrapper .contact .master .content1 .contentrap .iconmaker{
+  
+    width: 70px;
+    height: 70px;
+    padding-bottom: 20px;
+    background-color: transparent;
+    align-items: center;
+    align-content: center;
+    /* margin : 5px; */
+    margin-bottom: 5px;
+   
+    border: 4px solid white;
+    border-radius: 60px;
+  
+   
+  }
+  .wrapper .contact .master .content1 .contentrap .iconmaker i{
+    background-color: transparent;
+    font-size: 25px;
+    opacity: 2;
+    padding-left:20px;
+    padding-top: 12px;
+  }
+  
+  .wrapper .contact .master .content1 .contentrap .detailinput{
+    background-color:transparent;
+    margin-right: 2px;
+    width: 130px;
+    height:100px;
+  
+    /* justify-content: space-around; */
+  }
+  .wrapper .contact .master .content1 .contentrap .detailinput h4{
+    padding-left: 3px;
+    background-color: transparent;
+    font-size: 10px;
+  
+  }
+  .wrapper .contact .master .content1 .contentrap .detailinput p{
+    padding-left: 10px;
+    background-color: transparent;
+  
+  }
+  .wrapper .contact .master .inputcontainer{
+    opacity: 5.0;
+    background-color: transparent;
+    width:100%;
+    height:300px;
+  }
+  .wrapper .contact .master .inputcontainer form{
+    background-color: transparent;
+      width : 100%;
+      height:100%;
+     padding: 5px;
+     align-items: center;
+     display: input;
+     justify-content: center;
+  }
+  
+  .wrapper .contact .master .inputcontainer form .inputbox{
+    opacity: 1;
+    position: relative;
+    width: 100%;
+    color: white ;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .wrapper .contact .master .inputcontainer form .inputbox input{
+    background-color: transparent;
+    color: #fff;
+    width: 100%;
+   padding :15px 0;
+    font-size: 16px;
+    margin:10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+  }
+  .wrapper .contact .master .inputcontainer form .inputbox span{
+    opacity: 5;
+    font-size: 20px;
+    background-color: transparent;
+    position: absolute;
+    left: 0;
+    pointer-events: none;
+    
+    transition:0.5s;
+    color:white;
+  }
+  .wrapper .contact .master .inputcontainer form .inputbox input[type="submit"]{
+    background-color: #669117;
+    border:white;
+    cursor: pointer;
+    margin-right: 30px;
+   /* padding: 10px; */
+    size:10%;
+  }
+  .wrapper .contact .master .inputcontainer form .twoinput{
+  
+   
+    margin-left: 10px;
+    justify-content: space-around;
+  }
+
+}
